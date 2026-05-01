@@ -1,6 +1,6 @@
 # STM32_Simple_VCU
 
-基于 STM32F103 的简易 VCU（Vehicle Control Unit，整车控制器）实验项目。
+基于 STM32F103C8T6 的简易 VCU（Vehicle Control Unit，整车控制器）实验项目。
 
 本项目用于学习嵌入式开发、ADC 采集、PWM 电机控制、状态机、CAN 通信、故障诊断和模块化软件设计。  
 项目会按照 Demo 版本逐步迭代，从基础油门采集和电机控制开始，逐步扩展为一个简易 VCU 系统。
@@ -18,9 +18,9 @@
 
 ---
 
-## 当前版本
+## Version
 
-当前版本：**Demo v1.0**
+- v1.0: Throttle ADC + PWM Motor Control
 
 ### Demo v1.0 - 油门 ADC 控制 PWM 电机
 
